@@ -36,7 +36,8 @@ import fr.univbrest.dosi.spi.service.PromotionService;
 import fr.univbrest.dosi.spi.service.QuestionService;
 
 	
-
+@RunWith(SpringJUnit4ClassRunner.class)
+@SpringApplicationConfiguration(classes = Application.class)
 public class EtudiantControllerTest {
 	
 	@Autowired
